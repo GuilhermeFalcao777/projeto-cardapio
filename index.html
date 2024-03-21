@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3r1rZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuR1EzO+tcaEPQogQ@KaoGN26/zrn2@ImR1DfuLWn0o7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles/output.css" />
+    <title>MARY SWEET</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="w-full h-[420px] bg-zinc-950 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./assets/logo2.jpg" alt="Logo Mary Sweet"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+            <h1 class="text-4xl mt-3 mb-2 font-bold text-white">
+                Mary Sweet
+            </h1>
+
+            <span class="text-white font-medium"> Travessa Antonio José Correia n° 70, Ocara-Centro - CE </span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-4 " id="date-span">
+                <span class="text-white font-medium">Seg á Sex - 7:00 as 17:00</span>
+            </div>
+
+        </div>
+
+    </header>
+    <!--FIM HEADER-->
+
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça nosso menu:
+    </h2>
+
+    <!--INICIO MENU-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10  mx-auto max-w-7xl px-2 mb-16">
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2">
+                <img src="./assets/pudim3.png" alt="Pudim"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Pudim</p>
+                    <p class="text-sm">Todos os caminhos da felicidade vão te levar para um pudim.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name = "Pudim" data-price = "3.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2">
+                <img src="./assets/bolo maracuja.jpg" alt="Bolo de pote de Maracujá"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Bolo de pote de Maracujá</p>
+                    <p class="text-sm">Nosso bolo de pote de maracujá vai conquistar seu coração. Peça já o seu!</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bolo de pote de Maracujá"
+                            data-price="6.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2">
+                <img src="./assets/bolo brigadeiro.jpg" alt="Bolo de pote de Brigadeiro"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Bolo de pote de Brigadeiro</p>
+                    <p class="text-sm">Um bolinho no pote é bem melhor que muita gente.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bolo de pote de Brigadeiro"
+                            data-price="6.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2">
+                <img src="./assets/bolo ninho.jpg" alt="Bolo de pote de Ninho"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Bolo de pote de Ninho</p>
+                    <p class="text-sm">Não deixe para amanhã o bolo no pote de ninho que você pode comer hoje!</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bolo de pote de Ninho"
+                            data-price="6.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+              <!--PRODUTO ITEM-->
+
+              <div class="flex gap-2">
+                <img src="./assets/bolo prestigio.jpg" alt="Bolo de pote de Prestigio"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Bolo de pote de Prestigio</p>
+                    <p class="text-sm">O melhor bolo no pote de prestígio da cidade é o nosso, venha provar!</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bolo de pote de Prestigio"
+                            data-price="6.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+             <!--PRODUTO ITEM-->
+
+             <div class="flex gap-2">
+                <img src="./assets/risole calabresa.jpg " alt="Risole de Calabresa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Risole de Calabresa</p>
+                    <p class="text-sm">A sua felicidade está apenas um salgado de distância.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Risole de Calabresa"
+                            data-price="6.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2">
+                <img src="./assets/coxinhaf.jpg " alt="Risole de Frango"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Coxinha de Frango</p>
+                    <p class="text-sm">Dizia um filosofo: a felicidade tem forma de coxinha.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Coxinha de Frango"
+                            data-price="3.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+              <!--PRODUTO ITEM-->
+              <div class="flex gap-2">
+                <img src="./assets/salgado misto.jpg" alt="Risole de Misto"
+
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Risole de Misto</p>
+                    <p class="text-sm">Não deixe para depois, peça agora mesmo os melhores risólis de misto da cidade.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Risole de Misto"
+                            data-price="3.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+              <!--PRODUTO ITEM-->
+              <div class="flex gap-2">
+                <img src="./assets/risole queijo" alt="Risole de Queijo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+                <div>
+                    <p class="font-bold">Risole de Queijo</p>
+                    <p class="text-sm">Ouvir um ‘eu te amo’ é bom, mas você já comeu esse queijo aqui</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Risole de Queijo"
+                            data-price="3.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM PRODUTO ITEM-->
+
+
+
+        </main>
+
+    </div>
+    <!--FIM MENU-->
+
+ 
+    <!--MODAL CARD-->
+    <div
+     class="bg-black/70 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden"
+     id="cart-modal"
+    >
+
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]" >
+            <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+
+            <p class="font-bold">Total:<spam id="cart-total">0.00</spam></p>
+
+            <p class="font-bold mt-4">Insira seu nome e turma:</p>
+            <input
+             type="text"
+             placeholder="Digite seu nome/turma:"
+             id="address"
+             class="w-full border-2 p-1 rounded my-1"
+             >
+             <p class="text-red-500 hidden " id="address-warn">Digite seu nome e turma!</p>
+
+             <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+             </div>
+
+        </div>
+
+    </div>
+    <!--FIM MODAL CARD-->
+
+
+
+
+    <!--BUTTON CART FOOTER-->
+    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button 
+         class="flex items-center gap-2 text-white font-bold"
+        id="cart-btn" 
+        >
+            (<span id="cart-count">0</span>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+    <!--FIM BUTTON CART FOOTER-->
+
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
